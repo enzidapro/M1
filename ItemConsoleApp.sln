@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemApi", "ItemApi\ItemApi.csproj", "{1D08500B-DC1D-47C2-A938-B12CFA89FE80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "step1", "step1", "{2D8E0D7D-7D27-4733-A226-DA0B766C441A}"
+	ProjectSection(SolutionItems) = preProject
+		sale.cs = sale.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "step2", "step2", "{2656215F-BC83-4B83-86FB-460786D5E62F}"
+	ProjectSection(SolutionItems) = preProject
+		HttpClientService.cs = HttpClientService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "step3", "step3", "{935E3845-E3B2-4641-AFF4-79FD3BF9E600}"
+	ProjectSection(SolutionItems) = preProject
+		SalesService.cs = SalesService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "step4", "step4", "{F933CD33-93C3-46EF-B6E5-116D522BB903}"
+	ProjectSection(SolutionItems) = preProject
+		salesapp.cs = salesapp.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "step5", "step5", "{58A3FB20-A7CB-40E6-8685-F56BF7FE71BC}"
+	ProjectSection(SolutionItems) = preProject
+		salesmenu.cs = salesmenu.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DB5DC1E-A890-42CC-B48C-EF5375627E62}"
+	ProjectSection(SolutionItems) = preProject
+		program.cs = program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{663747D5-2636-48BB-B200-B3898E2F4A18}"
+	ProjectSection(SolutionItems) = preProject
+		AppDbContext.cs = AppDbContext.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemManagementApp", "ItemManagementApp\ItemManagementApp.csproj", "{E5C99835-1CCD-4502-9363-C98A319ECAD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D08500B-DC1D-47C2-A938-B12CFA89FE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D08500B-DC1D-47C2-A938-B12CFA89FE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D08500B-DC1D-47C2-A938-B12CFA89FE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D08500B-DC1D-47C2-A938-B12CFA89FE80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C99835-1CCD-4502-9363-C98A319ECAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C99835-1CCD-4502-9363-C98A319ECAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C99835-1CCD-4502-9363-C98A319ECAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C99835-1CCD-4502-9363-C98A319ECAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {994D675E-78B3-421A-93D1-1BD561350A39}
+	EndGlobalSection
+EndGlobal
